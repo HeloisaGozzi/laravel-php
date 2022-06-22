@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('senha'); 
             $table->string('CEP'); 
             $table->string('numeroCasa'); 
-        });
+        }); 
 
 
     }

@@ -13,9 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/projeto/aula/pw', 
-    function () {
+Route::get('/projeto/aula/pw', function () {
         return 'Minha primeira rota com Laravel';
       
 });
+
+Route::get('/produtos/cadastro', 'App\Http\Controllers\ProdutosController@create');
 
