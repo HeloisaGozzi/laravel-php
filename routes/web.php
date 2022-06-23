@@ -20,3 +20,8 @@ Route::get('/projeto/aula/pw', function () {
 
 Route::get('/produtos/cadastro', 'App\Http\Controllers\ProdutosController@create');
 
+Route::get('/perfil/cadastro', 'App\Http\Controllers\PerfilController@create');
+
+Route::get('/funcionario/cadastro', 'App\Http\Controllers\FuncionarioController@create');
+
+
